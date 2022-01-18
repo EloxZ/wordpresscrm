@@ -1,0 +1,347 @@
+.wplc_tabs {
+    box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07) !important;
+    -webkit-box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07) !important;
+    -moz-box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07) !important;
+    -o-box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07) !important;
+    padding: 10px !important;
+}
+
+.wplc_header_vh {
+    font-size: 16px;
+    padding: 0 0 0 0px;
+    color: #FFF;
+}
+
+/* Gutenberg styles */
+
+
+#wplc_custom_js_editor,
+#wplc_custom_css_editor,
+#wplc_custom_html_editor {
+    width: 560px;
+    height: 285px;
+    margin: 10px 0 10px 0;
+}
+
+#wplc_gutenberg_icon {
+    cursor: pointer;
+}
+
+.wplc_code {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border-radius: 3px;
+    color: #696969;
+}
+
+.wplc_code:hover {
+    background: #d7d7d7;
+}
+
+.wplc_code:focus,
+.wplc_code:active {
+    background: #018add;
+    color: #fff;
+}
+
+.wplc_agent_container ul {
+    display: block;
+    overflow: auto;
+}
+
+.wplc_agent_container li {
+    display: block;
+    float: left;
+    text-align: center;
+    border: 1px solid #CCC;
+    width: 150px;
+    height: 320px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px #CCC;
+    overflow: auto;
+}
+
+.wplc_agent_container img {
+    border-radius: 100px;
+}
+
+.wplc_agent_container h3 {
+    font: bold 12px/16px Arial;
+    padding: 0 0 0 0px;
+    color: #C2BBBE;
+    display: block;
+    text-transform: uppercase;
+}
+
+.wplc_agent_container small {
+    word-wrap: break-word;
+    display: block;
+}
+
+.wplc_agent_container select {
+    width: 120px;
+}
+
+
+/* Dashboard Page Styles */
+
+span.smaller {
+    font-size: 0.7em;
+}
+
+.wplc_tabs li a:focus {
+    box-shadow: none !important;
+}
+
+.tooltip {
+    background: #5f5f5f;
+    color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px #33333308;
+}
+
+
+/* 
+* Dashboard 
+*/
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid #0596d4!important;
+    background: #0596d4!important;
+    margin-bottom: 2px!important;
+}
+
+.ui-widget-header {
+    border: none!important;
+    background: none!important;
+}
+
+.wplc_wrap h2 {
+    margin-bottom: 12px!important;
+}
+
+.column_chat_name img {
+    border-radius: 50px;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+    border: 1px solid #e5e5e5;
+}
+
+
+
+.wplc_chat_on_premise_header {
+    display: flex;
+    background-color: #373737;
+    color: #FFF;
+    padding: 10px;
+}
+
+@media(max-width:600px) {
+    .wplc_chat_on_premise_header {
+        display: none;
+    }
+}
+
+.wplc_header_v {
+    flex-basis: 12%;
+    align-self: center;
+}
+
+.wplc_header_t {
+    flex-basis: 10%;
+    align-self: center;
+}
+
+.wplc_header_nr {
+    flex-basis: 10%;
+    align-self: center;
+}
+
+.wplc_header_dev {
+    flex-basis: 10%;
+    align-self: center;
+}
+
+.wplc_header_d {
+    flex-basis: 30%;
+    align-self: center;
+}
+
+.wplc_header_s {
+    flex-basis: 13%;
+    align-self: center;
+}
+
+.wplc_header_a {
+    flex-basis: 15%;
+    align-self: center;
+}
+
+#wplc_admin_chat_area_new {
+    position: relative;
+}
+
+.wplc_header_v_m,
+.wplc_header_t_m,
+.wplc_header_nr_m,
+.wplc_header_dev_m,
+.wplc_header_d_m,
+.wplc_header_s_m {
+    display: none;
+    font-weight: bold;
+}
+
+@media(max-width:600px) {
+    .wplc_header_v,
+    .wplc_header_t,
+    .wplc_header_nr,
+    .wplc_header_dev,
+    .wplc_header_d,
+    .wplc_header_s,
+    .wplc_header_a {
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .wplc_header_v_m,
+    .wplc_header_t_m,
+    .wplc_header_nr_m,
+    .wplc_header_dev_m,
+    .wplc_header_d_m,
+    .wplc_header_s_m {
+        display: inline-block;
+    }
+}
+
+
+/*
+#wplc_admin_chat_area_new::after{
+	content:"";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 45px 27px 0 27px;
+	border-color: #ffffff transparent transparent transparent;
+	position: absolute;
+    right: 46px;
+    bottom: -43px;
+}
+*/
+
+@media(min-width:600px) {
+    .wplc_p_cul {
+        display: flex!important;
+    }
+    .wplc_header_t {
+        text-align: center;
+    }
+    .wplc_header_nr {
+        text-align: center;
+    }
+    .wplc_header_dev {
+        text-align: center;
+    }
+    .wplc_header_s {
+        text-align: center;
+    }
+    .wplc_header_a {
+        text-align: center;
+    }
+}
+
+#wplc_chat_ul {
+    min-height: 60px;
+}
+
+.wplc_p_cul:last-child {
+    border-bottom: none!important;
+}
+
+
+
+.wplc_list_table {
+    margin-bottom: 15px;
+    margin-top: .5em;
+}
+
+.wplc_business_list_table {
+    margin-bottom: 15px;
+    margin-top: .5em;
+}
+
+.wplc_business_list_table th {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.wplc_business_list_table td {
+    text-align: left;
+}
+
+
+
+.wplc_on_premise_chat_box_user_info_rating {
+    flex-basis: 15%;
+    margin-left: auto!important;
+    align-self: flex-end;
+}
+
+.wplc_on_premise_chat_quick_response {
+    margin-left: auto!important;
+    padding-top: 5px;
+}
+
+#wplc_admin_email_transcript {
+    margin-left: 3px;
+}
+
+.wplc_error_message {
+    color: #dc3232 !important;
+    font-size: 12px !important;
+}
+
+.wplc_add_new_btn {
+    margin-left: 4px;
+    padding: 4px 8px;
+    position: relative;
+    top: -1px;
+    text-decoration: none;
+    border: none;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #e0e0e0;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.wplc_add_new_btn:hover {
+    color: white;
+    background: #0073aa;
+}
+
+
+#update-nag,
+.update-nag {
+    /* these properties removed from WP css in version 5.5 */
+    text-align: left;
+    background-color: #fff;
+    border-left: 4px solid #ffba00;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}

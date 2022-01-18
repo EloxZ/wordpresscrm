@@ -1,0 +1,208 @@
+.ui-tabs-panel a:not(.button) {
+    color: #0073aa !important;
+}
+
+.ui-tabs-panel a:active:not(.button),
+.ui-tabs-panel a:hover:not(.button) {
+    color: #006799 !important;
+}
+
+textarea,
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+    width: 100% !important;
+}
+
+.ui-tabs-panel > h3,
+.ui-tabs-panel > h4 {
+    display: block;
+    background: #0596d4;
+    margin-top: 0;
+    padding: 6px;
+    color: #FFF;
+    margin-bottom: 3px;
+    border-radius: 2px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.wplc_light_grey {
+    color: #373737;
+}
+
+#wplc_default_chat_icons {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+#wplc_default_chat_icons strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.wplc_default_chat_icon_selector {
+    background-color: #ccc;
+    display: flex;
+    vertical-align: top;
+    margin-right: 5px;
+    max-width: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wplc_default_chat_icon_selected {
+    display: flex;
+    vertical-align: top;
+    margin-right: 5px;
+    max-width: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.wplc_default_chat_icon_selector:hover {
+    cursor: pointer;
+    background-color: #bbb;
+}
+
+.wplc_default_chat_icon_selected > svg,
+.wplc_default_chat_icon_selector > svg {
+    fill: #fff;
+    width: 25px;
+}
+
+
+.wplc_default_chat_icon_selector svg rect {
+    fill: #ccc;
+}
+
+#wplc_icon_selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.wplc_theme_single,
+.wplc_animation_image {
+    cursor: pointer;
+}
+
+.wplc_theme_block img {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.wplc_theme_single {
+    width: 162px;
+    height: 162px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.wplc_animation_block div {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+}
+
+.wplc_animation_block i {
+    font-size: 3em;
+    line-height: 150px;
+}
+
+.wplc_animation_block .wplc_red {
+    color: #0596d4;
+}
+
+.wplc_animation_block .wplc_orange {
+    color: #0596d4;
+}
+
+.wplc_animation_active,
+.wplc_theme_active {
+    border: 2px solid #616161 !important;
+}
+
+.wplc_animation_block div {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+}
+
+.wplc_animation_block i {
+    font-size: 3em;
+    line-height: 150px;
+}
+
+.wplc_animation_block .wplc_red {
+    color: #0596d4;
+}
+
+.wplc_animation_block .wplc_orange {
+    color: #0596d4;
+}
+
+.wplc-input-number::-webkit-outer-spin-button,
+.wplc-input-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.wplc-input-number {
+    -moz-appearance: textfield;
+}
+
+.wplc-multiselect-header {
+    text-align: center;
+    background: #ffffff;
+}
+
+
+.striped > tbody > :nth-child(odd) .wplc-multiselect-header {
+    background: #f9f9f9;
+}
+
+.wplc_settings_dropdown{
+    width:180px;
+}
+
+.wplc_settings_button,
+.wplc_settings_button:focus{
+    background-color: #0596d4 !important;
+    border-color: #0596d4 !important;
+}
+
+#wplc_agent_logo_preview{
+    width:50px;
+}
+
+#bhModal_buttons{
+    text-align: end;
+}
+
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}

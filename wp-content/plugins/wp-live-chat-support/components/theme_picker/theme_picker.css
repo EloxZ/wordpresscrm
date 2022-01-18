@@ -1,0 +1,93 @@
+.wplc_theme{
+    width:fit-content;
+    margin-bottom:15px;
+    cursor:pointer;
+}
+
+.wplc_theme_chooser_container{
+    justify-content: space-evenly !important;
+}
+
+#wplc_custom_theme .wplc_pallet {
+    margin-bottom: 10px;
+}
+
+.wplc_pallet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    min-height: 40px;
+}
+
+.wplc_pallet_color {
+    margin-right: 13px;
+}
+
+.wplc_colorpicker_border {
+    border-radius: 50%;
+}
+
+.wplc_no_border {
+    border-style: none;
+    padding: 0px;
+}
+
+.wplc_selected_border {
+    transition: .2s;
+    transform: scale(1.1);
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, .2);
+}
+
+.wplc_selected_colorpicker {
+    width: 30px;
+    height: 30px;
+}
+
+.wplc_default_colorpicker {
+    width: 30px;
+    height: 30px;
+}
+
+#wplc_custom_theme .wplc_style_colorpicker {
+    cursor: pointer;
+}
+
+.wplc_style_colorpicker {
+    border-radius: 50%;
+}
+
+.wplc_colorpicker_label {
+    font-weight: 500;
+}
+
+.wplc_style_colorpicker_input {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 22px;
+    left: 35px;
+    z-index: -1;
+    opacity: 0;
+}
+
+.wplc_chat_preview,
+.wplc_colorpickers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#color_picker {
+    position: absolute;
+}
+
+#wplc_picker_header {
+    font-size: 15px;
+    font-weight: 600;
+    cursor: auto;
+    position: relative;
+}
+
+

@@ -1,0 +1,746 @@
+# Translation of Plugins - 3CX Live Chat - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - 3CX Live Chat - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-18 10:30:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - 3CX Live Chat - Stable (latest release)\n"
+
+#: modules/settings/settings_partials/gutenberg_settings.php:24
+msgid "Set block logo"
+msgstr "Establecer logo del bloque"
+
+#: modules/settings/settings_partials/gutenberg_settings.php:35
+msgid "Text in block"
+msgstr "Texto en el bloque"
+
+#: modules/settings/settings_partials/gutenberg_settings.php:67
+msgid "Displays the chosen logo"
+msgstr "Muestra el logo seleccionado"
+
+#: modules/settings/settings_partials/gutenberg_settings.php:68
+msgid "Displays the chosen custom text"
+msgstr "Muestra el texto personalizado seleccionado"
+
+#: includes/models/settings.php:284
+msgid "close"
+msgstr "cerrar"
+
+#: includes/models/settings.php:299
+msgid "Thank you for chatting with us."
+msgstr "Gracias por chatear con nosotros."
+
+#: modules/custom_fields/custom_fields_view.php:49
+#: modules/departments/departments_view.php:44
+#: modules/offline_messages/offline_messages_view.php:45
+#: modules/quick_responses/quick_responses_view.php:49
+#: modules/webhooks/webhooks_view.php:46
+msgid "Actions"
+msgstr "Acciones"
+
+#: modules/sessions/sessions_page.php:81
+msgid "Timestamp"
+msgstr "Fecha y hora"
+
+#: modules/sessions/sessions_page.php:82
+msgid "Origin"
+msgstr "Origen"
+
+#: includes/models/message.php:48 modules/sessions/sessions_page.php:87
+msgid "user"
+msgstr "usuario"
+
+#: includes/models/message.php:51 modules/sessions/sessions_page.php:89
+msgid "agent"
+msgstr "agente"
+
+#: modules/settings/settings_partials/general_settings.php:345
+msgid "Send transcripts to:"
+msgstr "Enviar transcripción a:"
+
+#: modules/settings/settings_partials/general_settings.php:338
+msgid "Send transcripts when chat ends:"
+msgstr "Enviar transcripción cuando finalice el chat:"
+
+#: includes/blocks/wplc-chat-box/index.php:24
+msgid "Type here"
+msgstr "Escribe aquí"
+
+#: modules/settings/settings_partials/gutenberg_settings.php:69
+msgid "Displays the chosen icon"
+msgstr "Muestra el icono seleccionado"
+
+#: modules/settings/settings_partials/gutenberg_settings.php:65
+msgid "Custom HTML Template"
+msgstr "Plantilla HTML personalizada"
+
+#: modules/settings/settings_partials/gutenberg_settings.php:43
+msgid "Use icon"
+msgstr "Usar icono"
+
+#: modules/settings/settings_partials/gutenberg_settings.php:13
+msgid "Block size"
+msgstr "Tamaño del bloque"
+
+#: modules/settings/settings_partials/gutenberg_settings.php:5
+msgid "Enable Gutenberg Blocks"
+msgstr "Activar los bloques de Gutenberg"
+
+#: modules/settings/settings_controller.php:87
+#: modules/settings/settings_partials/gutenberg_settings.php:1
+msgid "Gutenberg Blocks"
+msgstr "Bloques de Gutenberg"
+
+#: modules/offline_messages/offline_messages_view.php:75
+msgid "Delete Message"
+msgstr "Borrar mensaje"
+
+#: modules/agent_chat/agent_chat_view.php:142
+msgid "Send"
+msgstr "Enviar"
+
+#: includes/helpers/utils_helper.php:783 includes/wplc_admin_menu.php:15
+#: includes/wplc_admin_menu.php:19
+msgid "Live Chat"
+msgstr "Chat en vivo"
+
+#: includes/wplc_admin_menu.php:24 includes/wplc_admin_menu.php:28
+msgid "Support"
+msgstr "Soporte"
+
+#: modules/session_details/session_details_view.php:16
+msgid "Chat initiated on:"
+msgstr "Chat iniciado en:"
+
+#: modules/session_details/session_details_view.php:19
+msgid "Browser:"
+msgstr "Navegador:"
+
+#: includes/models/settings.php:351
+msgid "No answer. Try again later."
+msgstr "Sin respuesta. Inténtalo de nuevo mas tarde."
+
+#: modules/settings/settings_partials/gutenberg_settings.php:57
+msgid "Preview block"
+msgstr "Vista previa del bloque"
+
+#: modules/settings/settings_partials/gutenberg_settings.php:49
+msgid "Icon in block"
+msgstr "Icono en el bloque"
+
+#: modules/sessions/sessions_view.php:109
+msgid "No chats available at the moment."
+msgstr "No hay chats disponibles en este momento."
+
+#: modules/offline_messages/offline_messages_view.php:5
+msgid "Are you sure you would like to delete this message?"
+msgstr "¿Seguro que quieres borrar este mensaje?"
+
+#: includes/models/settings.php:349
+msgid "Please click 'Chat' to initiate a chat with an agent"
+msgstr "Por favor, haz clic en «Chat» para chatear con un agente"
+
+#: modules/settings/settings_view.php:14
+msgid "WPLC: set_time_limit() is not enabled on this server. You may experience issues while using 3CX Live Chat as a result of this. Please get in contact your host to get this function enabled."
+msgstr "WPLC: `set_time_limit()` no está activado en este servidor. Como consecuencia, podrías experimentar algún problema durante el uso de 3CX Live Chat. Por favor, ponte en contacto con tu alojamiento para activar esta función."
+
+#: modules/settings/settings_view.php:15
+msgid "WPLC: Safe mode is enabled on this server. You may experience issues while using 3CX Live Chat as a result of this. Please contact your host to get safe mode disabled."
+msgstr "WPLC: el modo seguro está activado en este servidor. Como consecuencia, podrías experimentar algún problema durante el uso de 3CX Live Chat. Ponte en contacto con tu alojamiento para desactivar el modo seguro."
+
+#: includes/helpers/utils_helper.php:684
+msgid "In progress with another agent"
+msgstr "En progreso con otro agente"
+
+#: includes/helpers/utils_helper.php:683
+msgid "Only chat agents can accept chats"
+msgstr "Sólo los agentes pueden aceptar chats"
+
+#: includes/helpers/chat_helper.php:555
+msgid "Incoming chat from %s (%s) on %s"
+msgstr "Mensaje de entrada de %s (%s) en %s"
+
+#: includes/helpers/utils_helper.php:667
+msgid "Status (Online)"
+msgstr "Estado (En Línea)"
+
+#: includes/helpers/utils_helper.php:669 includes/wplc_admin_menu.php:190
+#: includes/wplc_js_manager.php:35
+msgid "Offline"
+msgstr "Fuera de Línea"
+
+#: includes/helpers/utils_helper.php:670
+msgid "Status (Offline)"
+msgstr "Estado (Fuera de Línea)"
+
+#: modules/user_settings/user_settings_view.php:24
+msgid "Make this user a chat agent"
+msgstr "Hacer este usuario agente de chat"
+
+#: includes/models/session.php:36 modules/data_tools/data_tools_page.php:97
+msgid "Good"
+msgstr "Bueno"
+
+#: includes/models/session.php:30 modules/data_tools/data_tools_page.php:91
+msgid "Bad"
+msgstr "Malo"
+
+#: modules/dashboard/dashboard_controller.php:62
+msgid "An error has occured while fetching the news feed."
+msgstr "Ha ocurrido un error mientras se intentaba obtener el feed de noticias."
+
+#: includes/helpers/ringtones_helper.php:41
+msgid "Default"
+msgstr "Por defecto"
+
+#: modules/settings/settings_controller.php:81
+#: modules/settings/settings_partials/privacy_settings.php:1
+msgid "Privacy"
+msgstr "Privacidad"
+
+#: modules/settings/settings_partials/agents_settings.php:16
+#: modules/settings/settings_partials/agents_settings.php:52
+msgid "Edit Profile"
+msgstr "Editar perfil"
+
+#: modules/user_settings/user_settings_view.php:19
+msgid "Chat Agent"
+msgstr "Agente de chat"
+
+#: modules/activation_wizard/wizard_partials/invite_agents.php:37
+#: modules/activation_wizard/wizard_partials/invite_agents.php:93
+msgid "Admin"
+msgstr "Administrador"
+
+#: includes/helpers/offline_messages_helper.php:143
+#: modules/offline_messages/offline_messages_view.php:43
+#: modules/sessions/sessions_page.php:80
+msgid "Message"
+msgstr "Mensaje"
+
+#: includes/helpers/utils_helper.php:666
+msgid "Typing..."
+msgstr "Escribiendo..."
+
+#: modules/tools/tools_controller.php:10 modules/tools/tools_page.php:15
+#: modules/tools/tools_view.php:2
+msgid "Tools"
+msgstr "Herramientas"
+
+#: modules/dashboard/dashboard_view.php:50
+msgid "Total"
+msgstr "Total"
+
+#: modules/dashboard/dashboard_view.php:56
+msgid "Today"
+msgstr "Hoy"
+
+#: modules/settings/settings_partials/departments_settings.php:39
+#: modules/settings/settings_partials/general_settings.php:274
+msgid "here"
+msgstr "aquí"
+
+#: modules/activation_wizard/wizard_partials/auth_settings.php:21
+#: modules/settings/settings_partials/general_settings.php:50
+msgid "None"
+msgstr "Ninguno"
+
+#: modules/settings/settings_partials/styling_settings.php:11
+msgid "Use localization plugin"
+msgstr "Usar el plugin de localización"
+
+#: modules/settings/settings_controller.php:489
+#: modules/settings/settings_partials/styling_settings.php:66
+msgid "Welcome message"
+msgstr "Mensaje de bienvenida"
+
+#: modules/settings/settings_partials/styling_settings.php:86
+msgid "The chat has been ended by the agent."
+msgstr "El chat ha sido finalizado por el agente."
+
+#: modules/settings/settings_controller.php:491
+#: modules/settings/settings_partials/styling_settings.php:100
+msgid "Chat box animation"
+msgstr "Animación de la ventana de chat"
+
+#: modules/settings/settings_partials/styling_settings.php:74
+msgid "Auto-response to first message"
+msgstr "Auto-respuesta al primer mensaje"
+
+#: modules/settings/settings_partials/agents_settings.php:40
+msgid "Users"
+msgstr "Usuarios"
+
+#: modules/departments/departments_controller.php:13
+#: modules/settings/settings_controller.php:69
+#: modules/settings/settings_partials/departments_settings.php:1
+#: modules/tools/tools_view.php:8
+msgid "Departments"
+msgstr "Departamentos"
+
+#: modules/settings/settings_partials/departments_settings.php:7
+msgid "Default department a new chat is assigned to"
+msgstr "Departamento por defecto al cual es asignado un nuevo chat"
+
+#: modules/settings/settings_partials/departments_settings.php:22
+msgid "Allow user to select a department before starting a chat?"
+msgstr "¿Permitir al usuario seleccionar un departamento antes de iniciar el chat?"
+
+#: modules/settings/settings_partials/departments_settings.php:31
+msgid "Note: Chats will be transferred in the event that agents are not available within the selected department"
+msgstr "Nota: Los chats serán transferidos dentro del departamento seleccionado en el evento en que los agentes no estén disponibles"
+
+#: modules/settings/settings_partials/departments_settings.php:39
+msgid "Create departments %s."
+msgstr "Crear departamentos %s."
+
+#: modules/agent_chat/agent_chat_view.php:181
+msgid "Department"
+msgstr "Departamento"
+
+#: modules/data_tools/data_tools_view.php:34
+msgid "CSV File"
+msgstr "Archivo CSV"
+
+#: modules/data_tools/data_tools_view.php:52
+msgid "Import"
+msgstr "Importar"
+
+#: modules/data_tools/data_tools_view.php:53
+msgid "This cannot be undone"
+msgstr "Esto no puede deshacerse"
+
+#: modules/settings/settings_partials/privacy_settings.php:6
+msgid "Enable privacy controls"
+msgstr "Habilitar controles de privacidad"
+
+#: includes/models/settings.php:309 modules/gdpr.php:27
+#: modules/settings/settings_partials/privacy_settings.php:28
+msgid "Chat/Support"
+msgstr "Chat/Soporte"
+
+#: modules/settings/settings_partials/privacy_settings.php:34
+msgid "Data retention period"
+msgstr "Periodo de retención de la información"
+
+#: modules/settings/settings_partials/privacy_settings.php:37
+msgid "days"
+msgstr "días"
+
+#: modules/webhooks/webhooks_controller.php:13
+msgid "Web Hooks"
+msgstr "Web Hooks"
+
+#: modules/webhooks/manage_webhook_controller.php:107
+#: modules/webhooks/manage_webhook_view.php:23
+#: modules/webhooks/webhooks_view.php:40
+msgid "Event"
+msgstr "Evento"
+
+#: modules/webhooks/manage_webhook_controller.php:113
+#: modules/webhooks/manage_webhook_view.php:39
+#: modules/webhooks/webhooks_view.php:44
+msgid "Method"
+msgstr "Método"
+
+#: modules/webhooks/manage_webhook_view.php:43
+msgid "GET"
+msgstr "GET"
+
+#: modules/webhooks/manage_webhook_view.php:44
+msgid "POST"
+msgstr "POST"
+
+#: modules/sessions/sessions_page.php:79
+#: modules/settings/settings_partials/business_hours_settings.php:70
+msgid "From"
+msgstr "De"
+
+#: modules/gdpr.php:52
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: modules/settings/settings_controller.php:495
+#: modules/settings/settings_partials/privacy_settings.php:16
+msgid "Organization name"
+msgstr "Nombre de la organización"
+
+#: modules/webhooks/manage_webhook_controller.php:101
+#: modules/webhooks/manage_webhook_view.php:33
+#: modules/webhooks/webhooks_view.php:42
+msgid "Target URL"
+msgstr "URL de destino"
+
+#: modules/dashboard/dashboard_view.php:75
+msgid "Latest News"
+msgstr "Últimas noticias"
+
+#: modules/dashboard/dashboard_view.php:41
+msgid "Chats"
+msgstr "Chats"
+
+#: modules/dashboard/dashboard_controller.php:11
+#: modules/dashboard/dashboard_page.php:15
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: modules/sessions/sessions_view.php:5
+msgid "Are you sure you would like to delete this chat?"
+msgstr "¿Está seguro que desea borrar este chat?"
+
+#: modules/sessions/sessions_view.php:13 modules/sessions/sessions_view.php:29
+msgid "Error: Could not delete chat"
+msgstr "Error: No se pudo borrar el chat"
+
+#: includes/helpers/utils_helper.php:660
+#: modules/settings/settings_partials/agents_settings.php:19
+#: modules/settings/settings_partials/agents_settings.php:55
+#: modules/settings/settings_partials/chatbox_settings.php:238
+msgid "Remove"
+msgstr "Eliminar"
+
+#: modules/settings/settings_controller.php:501
+#: modules/settings/settings_partials/privacy_settings.php:43
+msgid "GDPR notice to visitors"
+msgstr "Aviso del RGPD a los visitantes"
+
+#: includes/models/trigger.php:68 modules/sessions/sessions_controller.php:28
+msgid "All"
+msgstr "Todo"
+
+#: modules/settings/settings_partials/chatbox_settings.php:7
+msgid "Bottom left"
+msgstr "Inferior izquierda"
+
+#: modules/settings/settings_partials/chatbox_settings.php:8
+msgid "Bottom right"
+msgstr "Inferior derecha"
+
+#: modules/settings/settings_partials/chatbox_settings.php:9
+msgid "Left"
+msgstr "Izquierda"
+
+#: modules/settings/settings_partials/chatbox_settings.php:10
+msgid "Right"
+msgstr "Derecha"
+
+#: modules/settings/settings_partials/chatbox_settings.php:37
+msgid "Expand the chat box automatically (prompts the user to enter their name and email address)."
+msgstr "Expandir el recuadro del chat automáticamente (insta al usuario a ingresar su nombre y dirección de correo electrónico)."
+
+#: modules/settings/settings_partials/chatbox_settings.php:85
+msgid "By checking this, only users that are logged in will be able to chat with you."
+msgstr "Al seleccionar esto, sólo los usuarios que han iniciado sesión podrán chatear con usted."
+
+#: modules/settings/settings_partials/offline_messages_settings.php:6
+msgid "The chat window will be hidden when it is offline. Users will not be able to send offline messages to you"
+msgstr "La ventana del chat se ocultará cuando esté offline. Los usuarios no podrán enviarle mensajes offline"
+
+#: modules/settings/settings_partials/styling_settings.php:107
+msgid "Slide Up"
+msgstr "Deslizar hacia arriba"
+
+#: modules/settings/settings_partials/styling_settings.php:112
+msgid "Slide From The Side"
+msgstr "Deslizar desde un lado"
+
+#: modules/settings/settings_partials/styling_settings.php:117
+msgid "Fade In"
+msgstr "Fundido de entrada"
+
+#: modules/settings/settings_partials/styling_settings.php:122
+msgid "No Animation"
+msgstr "Sin animación"
+
+#: modules/settings/settings_partials/blocked_visitors_settings.php:5
+msgid "Enter each IP Address you would like to block on a new line"
+msgstr "Introduzca cada dirección de IP que desee bloquear en una línea nueva"
+
+#: modules/settings/settings_partials/blocked_visitors_settings.php:6
+msgid "Blocking a user's IP Address here will hide the chat window from them, preventing them from chatting with you. Each IP Address must be on a new line"
+msgstr "Si bloquea una dirección IP de un usuario aquí, se ocultará la ventana del chat para ese usuario, evitando que pueda iniciar un chat con usted. Cada dirección IP se debe introducir en una línea nueva"
+
+#: modules/settings/settings_view.php:40
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: modules/custom_fields/custom_fields_view.php:47
+#: modules/custom_fields/manage_custom_field_view.php:44
+#: modules/quick_responses/manage_quick_response_view.php:41
+#: modules/quick_responses/quick_responses_view.php:47
+#: modules/sessions/sessions_view.php:95
+msgid "Status"
+msgstr "Estado"
+
+#: modules/sessions/sessions_view.php:99
+msgid "Action"
+msgstr "Acción"
+
+#: modules/agent_chat/agent_chat_view.php:83
+msgid "End chat"
+msgstr "Finalizar chat"
+
+#: modules/settings/settings_controller.php:9
+#: modules/settings/settings_page.php:13 modules/settings/settings_view.php:2
+msgid "Settings"
+msgstr "Ajustes"
+
+#: modules/settings/settings_partials/agents_settings.php:28
+msgid "Select"
+msgstr "Seleccionar"
+
+#: includes/models/custom_field.php:19 includes/models/quick_response.php:15
+#: modules/custom_fields/manage_custom_field_view.php:47
+#: modules/quick_responses/manage_quick_response_view.php:44
+msgid "Active"
+msgstr "Activo"
+
+#: modules/custom_fields/custom_fields_view.php:45
+#: modules/custom_fields/manage_custom_field_controller.php:132
+msgid "Type"
+msgstr "Tipo"
+
+#: modules/settings/settings_partials/chatbox_settings.php:125
+msgid "Time"
+msgstr "Hora"
+
+#: includes/wplc_js_manager.php:29
+msgid "A new chat has been received. Please go the 'Live Chat' page to accept the chat"
+msgstr "Un nuevo chat ha sido recibido. Por favor dirígete a la página de 'Live Chat' para aceptar la conversación."
+
+#: includes/wplc_js_manager.php:28
+msgid "New chat received"
+msgstr "Nuevo chat recibido."
+
+#: modules/settings/settings_partials/agents_settings.php:34
+msgid "Add Agent"
+msgstr "Añadir un agente"
+
+#: modules/settings/settings_partials/agents_settings.php:26
+msgid "Add New Agent"
+msgstr "Añadir un agente nuevo"
+
+#: includes/helpers/utils_helper.php:668 includes/wplc_admin_menu.php:190
+#: includes/wplc_js_manager.php:34
+msgid "Online"
+msgstr "En línea"
+
+#: modules/settings/settings_partials/encryption_settings.php:5
+msgid "All messages will be encrypted when being sent to and from the user and agent."
+msgstr "Todos los mensajes se cifrarán al ser enviados a y desde el usuario y el agente."
+
+#: modules/settings/settings_partials/encryption_settings.php:1
+msgid "Chat Encryption"
+msgstr "Cifrado del chat"
+
+#: modules/settings/settings_partials/encryption_settings.php:5
+msgid "Enable Encryption"
+msgstr "Activar el cifrado"
+
+#: modules/agent_chat/agent_chat_view.php:42
+msgid "Active Chats"
+msgstr "Chats activos"
+
+#: includes/helpers/utils_helper.php:680
+msgid "Accept Chat"
+msgstr "Aceptar chat"
+
+#: includes/helpers/offline_messages_helper.php:140
+#: modules/activation_wizard/wizard_partials/invite_agents.php:20
+#: modules/activation_wizard/wizard_partials/invite_agents.php:76
+#: modules/agent_chat/agent_chat_view.php:169
+#: modules/custom_fields/custom_fields_view.php:43
+#: modules/custom_fields/manage_custom_field_controller.php:126
+#: modules/departments/departments_view.php:42
+#: modules/departments/manage_department_controller.php:98
+#: modules/departments/manage_department_view.php:23
+#: modules/offline_messages/offline_messages_view.php:37
+#: modules/sessions/sessions_view.php:89
+#: modules/settings/settings_partials/chatbox_settings.php:75
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/helpers/offline_messages_helper.php:141
+#: modules/activation_wizard/wizard_partials/invite_agents.php:26
+#: modules/activation_wizard/wizard_partials/invite_agents.php:82
+#: modules/agent_chat/agent_chat_view.php:175
+#: modules/offline_messages/offline_messages_view.php:39
+#: modules/sessions/sessions_view.php:91
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: modules/offline_messages/offline_messages_view.php:35
+#: modules/sessions/sessions_view.php:87
+#: modules/settings/settings_partials/chatbox_settings.php:122
+msgid "Date"
+msgstr "Fecha"
+
+#: modules/settings/settings_controller.php:19
+#: modules/settings/settings_partials/general_settings.php:1
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: modules/settings/settings_controller.php:25
+msgid "Chat Box"
+msgstr "Recuadro del chat"
+
+#: modules/data_tools/data_tools_view.php:102
+#: modules/offline_messages/offline_messages_controller.php:14
+#: modules/offline_messages/offline_messages_page.php:14
+#: modules/settings/settings_controller.php:31
+#: modules/settings/settings_partials/offline_messages_settings.php:1
+msgid "Offline Messages"
+msgstr "Mensajes offline"
+
+#: modules/settings/settings_controller.php:37
+#: modules/settings/settings_partials/styling_settings.php:1
+msgid "Styling"
+msgstr "Estilo"
+
+#: modules/settings/settings_controller.php:49
+msgid "Blocked Visitors"
+msgstr "Visitantes bloqueados"
+
+#: modules/settings/settings_controller.php:465
+#: modules/settings/settings_partials/general_settings.php:5
+msgid "Chat enabled"
+msgstr "Chat activado"
+
+#: modules/activation_wizard/wizard_partials/call_settings.php:10
+#: modules/custom_fields/custom_fields_view.php:13
+#: modules/departments/departments_view.php:15
+#: modules/offline_messages/offline_messages_view.php:8
+#: modules/quick_responses/quick_responses_view.php:13
+#: modules/sessions/sessions_view.php:8 modules/sessions/sessions_view.php:22
+#: modules/settings/settings_partials/general_settings.php:10
+#: modules/webhooks/webhooks_view.php:13
+msgid "Yes"
+msgstr "Sí"
+
+#: modules/activation_wizard/wizard_partials/call_settings.php:16
+#: modules/custom_fields/custom_fields_view.php:15
+#: modules/departments/departments_view.php:16
+#: modules/offline_messages/offline_messages_view.php:10
+#: modules/quick_responses/quick_responses_view.php:15
+#: modules/sessions/sessions_view.php:9 modules/sessions/sessions_view.php:23
+#: modules/settings/settings_partials/general_settings.php:13
+#: modules/webhooks/webhooks_view.php:14
+msgid "No"
+msgstr "No"
+
+#: modules/settings/settings_partials/general_settings.php:81
+msgid "Input Field Replacement Text"
+msgstr "Texto de reemplazo para los campos anteriores"
+
+#: modules/settings/settings_partials/general_settings.php:57
+msgid "Use Logged In User Details"
+msgstr "Usar detalles de usuario conectado"
+
+#: modules/settings/settings_partials/general_settings.php:59
+msgid "A user's Name and Email Address will be used by default if they are logged in."
+msgstr "Se usarán por defecto el Nombre y la Dirección de correo electrónico de un usuario cuando haya iniciado sesión."
+
+#: modules/settings/settings_partials/general_settings.php:92
+msgid "Enable On Mobile Devices"
+msgstr "Activar en dispositivos móviles"
+
+#: modules/sessions/sessions_view.php:93
+msgid "URL"
+msgstr "URL"
+
+#: includes/models/session.php:51
+msgid "complete"
+msgstr "completado"
+
+#: includes/models/session.php:54
+msgid "pending"
+msgstr "pendiente"
+
+#: includes/models/session.php:57
+msgid "active"
+msgstr "activa"
+
+#: includes/models/session.php:60
+msgid "browsing"
+msgstr "navegando"
+
+#: modules/settings/settings_controller.php:43
+msgid "Agents"
+msgstr "Operadores"
+
+#: modules/settings/settings_partials/general_settings.php:166
+msgid "Checking this will allow you to change your status to Online or Offline on the Live Chat page."
+msgstr "Activando esta casilla podrás cambiar tu estado de en línea a fuera de línea en la página de chat en vivo."
+
+#: includes/helpers/utils_helper.php:681
+msgid "Open Chat"
+msgstr "Chat abierto"
+
+#: modules/settings/settings_controller.php:56
+msgid "Encryption"
+msgstr "Cifrado"
+
+#: modules/settings/settings_partials/general_settings.php:222
+msgid "Exclude chat window on the following pages:"
+msgstr "Excluir la ventana del chat en las siguientes páginas:"
+
+#: modules/settings/settings_partials/general_settings.php:202
+msgid "Include chat window on the following pages:"
+msgstr "Incluir la ventana del chat en las siguientes páginas:"
+
+#: modules/settings/settings_partials/business_hours_settings.php:57
+msgid "Current Site Time"
+msgstr "Hora actual del sitio"
+
+#: modules/settings/settings_partials/encryption_settings.php:9
+msgid "Once enabled, all messages sent will be encrypted. This cannot be undone."
+msgstr "Una vez activado, todos los mensajes enviados serán cifrados. Esto no se puede deshacer."
+
+#: modules/settings/settings_partials/business_hours_settings.php:16
+msgid "Week Day"
+msgstr "Día de la semana"
+
+#: modules/settings/settings_partials/chatbox_settings.php:226
+msgid "Logo"
+msgstr "Logotipo"
+
+#: modules/tools/tools_view.php:15
+msgid "Web hooks"
+msgstr "Webhooks"
+
+#: modules/webhooks/webhooks_view.php:30
+msgid "Web hook Deleted"
+msgstr "Webhook borrado"
+
+#: modules/dashboard/dashboard_view.php:56
+msgid "Last %s days"
+msgstr "Últimos %s días"
+
+#: modules/settings/settings_partials/general_settings.php:224
+msgid "Do not show the chat window on the following pages. Leave blank to show on all. (Use comma-separated Page ID's)"
+msgstr "No mostrar la ventana del chat en las siguientes páginas. Déjalo en blanco para mostrarla en todas. (Usa ID de página separados por comas)"
+
+#: modules/settings/settings_partials/general_settings.php:83
+msgid "This is the text that will show in place of the Name And Email fields"
+msgstr "Este es el texto que se mostrará en lugar de los campos «Nombre» y «Correo electrónico»"
+
+#: modules/settings/settings_partials/general_settings.php:94
+msgid "Disabling this will mean that the Chat Box will not be displayed on mobile devices. (Smartphones and Tablets)"
+msgstr "Si desactivas esto, significará que la caja del chat no se mostrará en los dispositivos móviles. (Teléfonos inteligentes y tabletas)"
+
+#: modules/settings/settings_partials/general_settings.php:204
+msgid "Show the chat window on the following pages. Leave blank to show on all. (Use comma-separated Page ID 's)"
+msgstr "Mostrar la ventana del chat en las siguientes páginas. Déjalo en blanco para mostrarla en todas. (Usa ID de página separados por comas)"
+
+#: modules/settings/settings_partials/general_settings.php:119
+msgid "Disable this to mute the sound that is played when a new chat message is received"
+msgstr "Desactiva esto para silenciar el sonido que se reproduce cuando es recibido un nuevo mensaje de chat"
+
+#: modules/gdpr.php:22
+msgid "I agree that my personal data to be processed and for the use of cookies in order to engage in a chat processed by %%COMPANY%%, for the purpose of %%PURPOSE%%, for the time of %%PERIOD%% day(s) as per the GDPR."
+msgstr "Acepto que mis datos personales sean procesados ​​y el uso de cookies para participar en un chat procesado por %%COMPANY%%, con el propósito de %%PURPOSE%%, para el tiempo de %%PERIOD%% día(s) según el RGPD."

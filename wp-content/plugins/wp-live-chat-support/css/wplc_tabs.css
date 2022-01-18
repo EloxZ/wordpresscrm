@@ -1,0 +1,41 @@
+.ui-tabs-vertical .ui-tabs-nav {
+    padding: .2em .1em .2em .2em;
+    float: left;
+    max-width: 20%;
+    min-width: 190px;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li {
+    border-bottom-width: 1px !important;
+    border-right-width: 1px !important;
+    clear: left;
+    width: 100%;
+    margin: 0 -1px .2em 0;
+    padding:.5em !important;
+    outline: none;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li a {
+    display: block;
+    padding:0px !important;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    border-right-width: 1px;
+}
+
+.ui-tabs-vertical .ui-tabs-panel {
+    padding-top: 4px;
+    float: left;
+    min-width: 67%;
+    max-width: 67%;
+}
+
+.ui-tabs-vertical .ui-tabs-anchor {
+    width: 100%;
+}
+
+.wplc_tabs .wrap{
+    margin:0px;
+}
+

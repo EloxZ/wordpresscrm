@@ -1,0 +1,16 @@
+.wplc_wrap input.error {
+    border: 1px solid red;
+}
+
+.wplc_wrap textarea.error {
+    border: 1px solid red;
+}
+
+.wplc_wrap select.error {
+    border: 1px solid red;
+}
+
+.wplc_wrap label.error {
+    color: red;
+    padding-left: 15px;
+}

@@ -1,0 +1,29 @@
+.wplc_circle {
+    width: 10px !important;
+    height: 10px !important;
+    display: inline-block !important;
+    border-radius: 100% !important;
+    margin-right: 5px !important;
+}
+.wplc_red_circle{
+    background: red;
+}
+.wplc_green_circle{
+    background:rgb(103, 213, 82);
+}
+.wplc_online_topbar_switch:before {
+    color: #000 !important;
+}
+
+.wplc_online_topbar_switch {
+    width: 9px !important;
+    height: 14px !important;
+    margin-top: -1px !important;
+    border: 1px solid #dedede !important;
+}
+.wplc_online_topbar_switch_online {
+    background-color: rgb(96, 202, 76) !important;
+}
+.wplc_online_topbar_switch_offline {
+    background-color: #de1b1b !important;
+}

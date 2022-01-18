@@ -1,0 +1,21 @@
+[16/Jan/2022:19:09:48] (I): WordPress Instance Info:
+[16/Jan/2022:19:09:48] (I): Home URL : http://localhost/wordpress
+[16/Jan/2022:19:09:48] (I): Site URL : http://localhost/wordpress
+[16/Jan/2022:19:09:48] (I): WordPress Version : 5.8.3
+[16/Jan/2022:19:09:48] (I): Onboarding Version : 1.1.20
+[16/Jan/2022:19:09:48] (I): Multisite : No
+[16/Jan/2022:19:09:48] (I): Server Info : Apache/2.4.51 (Win64) PHP/7.4.26
+[16/Jan/2022:19:09:48] (I): PHP Version : 7.4.26
+[16/Jan/2022:19:09:48] (I): HTTPS : No
+[16/Jan/2022:19:09:48] (I): PHP Max Execution Time : 120
+[16/Jan/2022:19:09:48] (I): PHP Max Input Vars : 2500
+[16/Jan/2022:19:09:48] (I): Max Upload Size : 2097152
+[16/Jan/2022:19:09:48] (I): Plugins:
+[16/Jan/2022:19:09:48] (I): [PLUGIN] Memberlite Elements : v1.0.5 (Stranger Studios)
+[16/Jan/2022:19:09:48] (I): [PLUGIN] Simply Schedule Appointments : v1.5.2.1 (N squared)
+[16/Jan/2022:19:09:48] (I): [PLUGIN] Templates Patterns Collection : v1.1.20 (ThemeIsle)
+[16/Jan/2022:19:09:48] (I): [PLUGIN] User Notes : v1.0.2 (Cartpauj)
+[16/Jan/2022:19:09:48] (I): [PLUGIN] WooCommerce : v6.1.0 (Automattic)
+[16/Jan/2022:19:09:48] (I): [PLUGIN] 3CX Live Chat : v9.4.1 (3CX)
+[16/Jan/2022:19:09:48] (I): [PLUGIN] WPForms Lite : v1.7.2 (WPForms)
+[16/Jan/2022:19:09:48] (I): [PLUGIN] Jetpack CRM : v4.7.0 (Automattic)

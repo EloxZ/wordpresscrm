@@ -1,0 +1,235 @@
+.end_chat_div {
+    display: none !important;
+    /*User cannot type or input any data*/
+}
+
+#wplc_session_details_box {
+    display: block;
+    overflow: auto;
+    clear: both;
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.admin_chat_img {
+    border-radius: 100px !important;
+}
+
+.admin_chat_box {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    clear: both;
+    padding-bottom: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    /*border: 1px solid #ccc;*/
+    background-color: #fff;
+}
+
+.admin_visitor_info {
+    position: absolute !important;
+    background: #333;
+    padding: 3% !important;
+    width: 30% !important;
+    border-radius: 5px;
+    color: #fff !important;
+    height: 320px !important;
+    box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07);
+    -webkit-box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07);
+    -moz-box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07);
+    -o-box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07);
+}
+
+.wplc_admin_chat_info{
+    flex-basis: 30%;
+    border-left-style: solid;
+    border-left-color: #eee;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.admin_chat_box_inner {
+    height: 100% !important;
+    overflow-y: auto;
+    flex-grow: 1;
+    margin-top: 10px;
+}
+
+.wplc_bottom_chat_info_container {
+    position: absolute;
+    top: 510px;
+    background: #fff;
+    border-radius: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 30%;
+    min-width: 224px;
+    box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07);
+    -webkit-box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07);
+    -moz-box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07);
+    -o-box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07);
+}
+
+.wplc_bottom_chat_info_container h3 {
+    margin-top: 0 !important;
+}
+
+.wplc-user-message,
+.wplc-admin-message {
+    display: block;
+    max-width: 80%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, .07);
+    -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, .07);
+    -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, .07);
+    -o-box-shadow: 0 0 2px 1px rgba(0, 0, 0, .07);
+}
+
+.wplc-user-message {
+    background-color: #e0e0e0;
+}
+
+.wplc-admin-message {
+    background-color: #333;
+    color: #fff;
+    margin-left: 20%;
+}
+
+.wplc-user-message-avatar,
+.wplc-admin-message-avatar {
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.wplc-msg-content {
+    display: inline-block;
+    padding-left: 10px
+}
+
+.wplc-chat-person-name {
+    font-size: 11px;
+}
+
+.messageBody {
+    display: block;
+}
+
+.wplc-clear-float-message {
+    clear: both;
+}
+
+.rating {
+    background-color: lightgray;
+    width: 80px;
+    padding: 2px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    float: right;
+}
+
+.rating-bad {
+    background-color: #AF0B0B !important;
+}
+
+.rating-good {
+    background-color: #368437 !important;
+}
+
+.wplc_on_premise_chat_window_header {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.wplc_on_premise_chat_window h2 {
+    background: #0596d4;
+    margin-top: 0;
+    padding: 7px;
+    color: #FFF;
+    margin-bottom: 3px;
+    border-radius: 2px;
+    font-weight: normal;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.wplc_on_premise_chat_box_user_info {
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.wplc_on_premise_chat_box_user_info_avatar {
+    width: 50px;
+    padding-right: 10px;
+}
+
+.wplc_on_premise_chat_box_user_info_details {
+    flex-basis: 60%;
+}
+
+.wplc_on_premise_chat_box_user_custom_fields {
+    flex-basis: 40%;
+}
+
+.wplc_agent_rating {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.wplc_rate_comments{
+    margin-left: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 850px;
+}
+
+.wplc_rate_comments_header{
+    font-weight: 700;
+}
+
+.wplc_rating{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wplc_rating>img{
+    width:32px;
+    align-self: center
+}
+
+.wplc_chat_block_header {
+    text-decoration: underline;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+@media(max-width:500px) {
+    .admin_chat_box {
+        flex-direction: column-reverse;
+        padding:0;
+    }
+
+    .wplc_admin_chat_info{
+        flex-basis:100%;
+        border:none;
+        padding:0;
+    }
+}
+
